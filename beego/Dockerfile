@@ -6,5 +6,9 @@ MAINTAINER Lei Cao lexo.charles@gmail.com
 # ENV GOPATH /go
 
 # Install beego & bee
-RUN go get github.com/astaxie/beego
-RUN go get github.com/beego/bee
+# bee version:
+# bee   :1.2.3
+# beego :1.4.2
+# Go    :go version go1.3.3
+RUN go get -u github.com/astaxie/beego
+RUN go get -u github.com/beego/bee
